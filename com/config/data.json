@@ -1,0 +1,426 @@
+
+{
+  "cards": {
+    "0": {
+      "color":"red",
+      "value": "0",
+      "stackable": false
+    },
+    "1": {
+      "color":"red",
+      "value": "1",
+      "stackable": false
+    },
+    "2": {
+      "color":"red",
+      "value": "2",
+      "stackable": false
+    },
+    "3": {
+      "color":"red",
+      "value": "3",
+      "stackable": false
+    },
+    "4": {
+      "color":"red",
+      "value": "4",
+      "stackable": false
+    },
+    "5": {
+      "color":"red",
+      "value": "5",
+      "stackable": false
+    },
+    "6": {
+      "color":"red",
+      "value": "6",
+      "stackable": false
+    },
+    "7": {
+      "color":"red",
+      "value": "7",
+      "stackable": false
+    },
+    "8": {
+      "color":"red",
+      "value": "8",
+      "stackable": false
+    },
+    "9": {
+      "color":"red",
+      "value": "9",
+      "stackable": false
+    },
+
+
+
+
+    "10": {
+      "color":"blue",
+      "value": "0",
+      "stackable": false
+    },
+    "11": {
+      "color":"red",
+      "value": "1",
+      "stackable": false
+    },
+    "12": {
+      "color":"red",
+      "value": "2",
+      "stackable": false
+    },
+    "13": {
+      "color":"blue",
+      "value": "3",
+      "stackable": false
+    },
+    "14": {
+      "color":"blue",
+      "value": "4",
+      "stackable": false
+    },
+    "15": {
+      "color":"blue",
+      "value": "5",
+      "stackable": false
+    },
+    "16": {
+      "color":"blue",
+      "value": "6",
+      "stackable": false
+    },
+    "17": {
+      "color":"blue",
+      "value": "7",
+      "stackable": false
+    },
+    "18": {
+      "color":"blue",
+      "value": "8",
+      "stackable": false
+    },
+    "19": {
+      "color":"blue",
+      "value": "9",
+      "stackable": false
+    },
+
+
+
+    "20": {
+      "color":"yellow",
+      "value": "0",
+      "stackable": false
+    },
+    "21": {
+      "color":"yellow",
+      "value": "1",
+      "stackable": false
+    },
+    "22": {
+      "color":"yellow",
+      "value": "2",
+      "stackable": false
+    },
+    "23": {
+      "color":"yellow",
+      "value": "3",
+      "stackable": false
+    },
+    "24": {
+      "color":"yellow",
+      "value": "4",
+      "stackable": false
+    },
+    "25": {
+      "color":"yellow",
+      "value": "5",
+      "stackable": false
+    },
+    "26": {
+      "color":"yellow",
+      "value": "6",
+      "stackable": false
+    },
+    "27": {
+      "color":"yellow",
+      "value": "7",
+      "stackable": false
+    },
+    "28": {
+      "color":"yellow",
+      "value": "8",
+      "stackable": false
+    },
+    "29": {
+      "color":"yellow",
+      "value": "9",
+      "stackable": false
+    },
+
+
+    "30": {
+      "color":"green",
+      "value": "0",
+      "stackable": false
+    },
+    "31": {
+      "color":"green",
+      "value": "1",
+      "stackable": false
+    },
+    "32": {
+      "color":"green",
+      "value": "2",
+      "stackable": false
+    },
+    "33": {
+      "color":"green",
+      "value": "3",
+      "stackable": false
+    },
+    "34": {
+      "color":"green",
+      "value": "4",
+      "stackable": false
+    },
+    "35": {
+      "color":"green",
+      "value": "5",
+      "stackable": false
+    },
+    "36": {
+      "color":"green",
+      "value": "6",
+      "stackable": false
+    },
+    "37": {
+      "color":"green",
+      "value": "7",
+      "stackable": false
+    },
+    "38": {
+      "color":"green",
+      "value": "8",
+      "stackable": false
+    },
+    "39": {
+      "color":"green",
+      "value": "9",
+      "stackable": false
+    },
+
+
+
+    "40": {
+      "color":"red",
+      "value": "0",
+      "stackable": false
+    },
+    "41": {
+      "color":"red",
+      "value": "1",
+      "stackable": false
+    },
+    "42": {
+      "color":"red",
+      "value": "2",
+      "stackable": false
+    },
+    "43": {
+      "color":"red",
+      "value": "3",
+      "stackable": false
+    },
+    "44": {
+      "color":"red",
+      "value": "4",
+      "stackable": false
+    },
+    "45": {
+      "color":"red",
+      "value": "5",
+      "stackable": false
+    },
+    "46": {
+      "color":"red",
+      "value": "6",
+      "stackable": false
+    },
+    "47": {
+      "color":"red",
+      "value": "7",
+      "stackable": false
+    },
+    "48": {
+      "color":"red",
+      "value": "8",
+      "stackable": false
+    },
+    "49": {
+      "color":"red",
+      "value": "9",
+      "stackable": false
+    },
+
+
+
+
+    "50": {
+      "color":"blue",
+      "value": "0",
+      "stackable": false
+    },
+    "51": {
+      "color":"red",
+      "value": "1",
+      "stackable": false
+    },
+    "52": {
+      "color":"red",
+      "value": "2",
+      "stackable": false
+    },
+    "53": {
+      "color":"blue",
+      "value": "3",
+      "stackable": false
+    },
+    "54": {
+      "color":"blue",
+      "value": "4",
+      "stackable": false
+    },
+    "55": {
+      "color":"blue",
+      "value": "5",
+      "stackable": false
+    },
+    "56": {
+      "color":"blue",
+      "value": "6",
+      "stackable": false
+    },
+    "57": {
+      "color":"blue",
+      "value": "7",
+      "stackable": false
+    },
+    "58": {
+      "color":"blue",
+      "value": "8",
+      "stackable": false
+    },
+    "59": {
+      "color":"blue",
+      "value": "9",
+      "stackable": false
+    },
+
+
+
+    "60": {
+      "color":"yellow",
+      "value": "0",
+      "stackable": false
+    },
+    "61": {
+      "color":"yellow",
+      "value": "1",
+      "stackable": false
+    },
+    "62": {
+      "color":"yellow",
+      "value": "2",
+      "stackable": false
+    },
+    "63": {
+      "color":"yellow",
+      "value": "3",
+      "stackable": false
+    },
+    "64": {
+      "color":"yellow",
+      "value": "4",
+      "stackable": false
+    },
+    "65": {
+      "color":"yellow",
+      "value": "5",
+      "stackable": false
+    },
+    "66": {
+      "color":"yellow",
+      "value": "6",
+      "stackable": false
+    },
+    "67": {
+      "color":"yellow",
+      "value": "7",
+      "stackable": false
+    },
+    "68": {
+      "color":"yellow",
+      "value": "8",
+      "stackable": false
+    },
+    "69": {
+      "color":"yellow",
+      "value": "9",
+      "stackable": false
+    },
+
+
+    "70": {
+      "color":"green",
+      "value": "0",
+      "stackable": false
+    },
+    "71": {
+      "color":"green",
+      "value": "1",
+      "stackable": false
+    },
+    "72": {
+      "color":"green",
+      "value": "2",
+      "stackable": false
+    },
+    "73": {
+      "color":"green",
+      "value": "3",
+      "stackable": false
+    },
+    "74": {
+      "color":"green",
+      "value": "4",
+      "stackable": false
+    },
+    "75": {
+      "color":"green",
+      "value": "5",
+      "stackable": false
+    },
+    "76": {
+      "color":"green",
+      "value": "6",
+      "stackable": false
+    },
+    "77": {
+      "color":"green",
+      "value": "7",
+      "stackable": false
+    },
+    "78": {
+      "color":"green",
+      "value": "8",
+      "stackable": false
+    },
+    "79": {
+      "color":"green",
+      "value": "9",
+      "stackable": false
+    }
+  }
+}

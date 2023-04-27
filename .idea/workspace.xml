@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9281c8b-156a-4f9b-a92a-cd5830b36d6f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/com/config/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/config/Shuffle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/config/data.json" afterDir="false" />
-    </list>
+    <list default="true" id="a9281c8b-156a-4f9b-a92a-cd5830b36d6f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +21,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2OxsLM6tRNTE7oUeNLbQn63Q1sE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,7 +34,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/samreid/Desktop/code/Internet-Socket-Uno-Game/com/config",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "advanced.settings"

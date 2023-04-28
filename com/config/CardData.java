@@ -67,24 +67,11 @@ public class CardData {
         }
         return stackableFlags[cardNumber];
     }
-
-
-
+    
     //TODO remove test tool when functional and relocate.
     public static void main(String[] args) {
         try {
             CardData.init();
-
-            // Test retrieving card information
-            int cardNumber = 20;
-            String color = CardData.getColor(cardNumber);
-            String value = CardData.getValue(cardNumber);
-            boolean isStackable = CardData.isStackable(cardNumber);
-
-            System.out.println("Card Number: " + cardNumber);
-            System.out.println("Color: " + color);
-            System.out.println("Value: " + value);
-            System.out.println("Is Stackable: " + isStackable);
         } catch (IOException e) {
             System.err.println("Error reading the file: " + e.getMessage());
         } catch (ParseException e) {
@@ -94,5 +81,3 @@ public class CardData {
         }
     }
 }
-
-

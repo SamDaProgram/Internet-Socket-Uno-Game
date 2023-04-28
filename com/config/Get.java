@@ -6,10 +6,10 @@ import org.json.simple.parser.*;
 import java.io.FileReader;
 import java.util.Arrays;
 
-public class Main {
+public class Get {
     private static int[] shuffledCardNumbers = new int[0];
 
-    public static void main(String[] args) {
+    public static void innit() {
         JSONParser parser = new JSONParser();
         int[] cardNumbers = new int[0];
         try {
@@ -28,16 +28,19 @@ public class Main {
                 String color = (String) cardObj.get("color");
                 String value = (String) cardObj.get("value");
                 boolean stackable = (Boolean) cardObj.get("stackable");
-                System.out.println("Card " + cardNumber + " - color: " + color + ", value: " + value + ", stackable: " + stackable);
+
+                System.out.println("Card " + cardNumber + " - color: " + color + ", value: " + value + ", stackable: " + stackable +", image file: "+ Image.getFileName(cardNumber));
             }
         } catch (Exception e) {
             e.printStackTrace();
         }
 
         System.out.println(Arrays.toString(getShuffledCardNumbers()));
+        ;
     }
 
     public static int[] getShuffledCardNumbers() {
         return shuffledCardNumbers;
     }
+
 }

@@ -1,20 +1,20 @@
 package com.config;
 
-public class Image {
-    public static String getFileName(int value){
-        if(value>79){
+import java.awt.image.CropImageFilter;
 
+public class Image {
+    public static String getFileName(int value) throws Exception {
+        String fileName = null;
+        if(value<=79){
+            fileName= CardData.getColor(value) +"_"+ CardData.getValue(value)+".png";
         } else{
 
         }
 
-        return null;
+        return fileName;
     }
 
-    public static void returnFile(){
-        System.out.println(Get.getShuffledCardNumbers());
-    }
-    public static void returnFile(int value){
-        System.out.println(Get.getShuffledCardNumbers());
+    public static void main(String[] args) throws Exception {
+        getFileName(36);
     }
 }

@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9281c8b-156a-4f9b-a92a-cd5830b36d6f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/com/config/Presets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/helper/Deal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com/config/CardData.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/config/CardData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/config/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/config/Image.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/main/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/main/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/com/config/CardData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/com/config/CardData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/com/main/Agent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/com/main/Agent.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,19 +38,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/samreid/Desktop/code/Internet-Socket-Uno-Game/com/config",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "advanced.settings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/samreid/Desktop/code/Internet-Socket-Uno-Game/com/config&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/com/config" />
@@ -52,7 +59,20 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CardData">
+  <component name="RunManager" selected="Application.Image">
+    <configuration name="Agent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.main.Agent" />
+      <module name="Internet-Socket-Uno-Game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CardData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.config.CardData" />
       <module name="Internet-Socket-Uno-Game" />
@@ -94,8 +114,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CardData" />
         <item itemvalue="Application.Image" />
+        <item itemvalue="Application.Agent" />
+        <item itemvalue="Application.CardData" />
         <item itemvalue="Application.Shuffle" />
       </list>
     </recent_temporary>
@@ -109,6 +130,7 @@
       <option name="presentableId" value="Default" />
       <updated>1682513511836</updated>
       <workItem from="1682513513835" duration="12913000" />
+      <workItem from="1682701028580" duration="1380000" />
     </task>
     <servers />
   </component>

@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9281c8b-156a-4f9b-a92a-cd5830b36d6f" name="Changes" comment="" />
+    <list default="true" id="a9281c8b-156a-4f9b-a92a-cd5830b36d6f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/com/config/Presets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/config/CardData.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/config/CardData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/main/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/main/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/com/config/CardData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/com/config/CardData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/com/main/Agent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/com/main/Agent.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +41,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/samreid/Desktop/code/Internet-Socket-Uno-Game/com/config",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -48,7 +56,46 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Agent">
+    <configuration name="Agent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.main.Agent" />
+      <module name="Internet-Socket-Uno-Game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.config.CardData" />
+      <module name="Internet-Socket-Uno-Game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Image" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.config.Image" />
+      <module name="Internet-Socket-Uno-Game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Shuffle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.config.Shuffle" />
       <module name="Internet-Socket-Uno-Game" />
@@ -64,6 +111,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Agent" />
+        <item itemvalue="Application.CardData" />
+        <item itemvalue="Application.Image" />
         <item itemvalue="Application.Shuffle" />
       </list>
     </recent_temporary>

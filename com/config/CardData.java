@@ -12,10 +12,10 @@ public class CardData {
     protected static String[] colors;
     protected static String[] values;
     protected static boolean[] stackableFlags;
+    protected static int[] cardNumbers;
 
     public static void init() throws IOException, ParseException, Exception {
         JSONParser parser = new JSONParser();
-        int[] cardNumbers;
         try (FileReader reader = new FileReader("com/config/data.json")) {
             Object obj = parser.parse(reader);
             JSONObject jsonObject = (JSONObject) obj;
@@ -47,14 +47,46 @@ public class CardData {
     }
 
 
-    public static String getColor(int cardNumber) throws IllegalArgumentException {
+    public static String getColor(int cardNumber) throws Exception {
+        try {
+            init();
+        } catch (IOException e) {
+            System.err.println(Presets.ERRORPRESET+"reading the JSON configuration file: " + e.getMessage());
+        } catch (ParseException e) {
+            System.err.println(Presets.ERRORPRESET+"unable to parse JSON configuration file: " + e.getMessage());
+        } catch (Exception e) {
+            System.err.println(Presets.ERRORPRESET+"An error occurred during agent initialization: " + e.getMessage());
+        }
         if (cardNumber < 0 || cardNumber >= colors.length) {
             throw new IllegalArgumentException("Invalid card number");
         }
         return colors[cardNumber];
     }
 
+    public static int[] getAll() throws Exception {
+        try {
+            init();
+        } catch (IOException e) {
+            System.err.println(Presets.ERRORPRESET+"reading the JSON configuration file: " + e.getMessage());
+        } catch (ParseException e) {
+            System.err.println(Presets.ERRORPRESET+"unable to parse JSON configuration file: " + e.getMessage());
+        } catch (Exception e) {
+            System.err.println(Presets.ERRORPRESET+"An error occurred during agent initialization: " + e.getMessage());
+        }
+
+        return cardNumbers;
+    }
+
     public static String getValue(int cardNumber) throws IllegalArgumentException {
+        try {
+            init();
+        } catch (IOException e) {
+            System.err.println(Presets.ERRORPRESET+"reading the JSON configuration file: " + e.getMessage());
+        } catch (ParseException e) {
+            System.err.println(Presets.ERRORPRESET+"unable to parse JSON configuration file: " + e.getMessage());
+        } catch (Exception e) {
+            System.err.println(Presets.ERRORPRESET+"An error occurred during agent initialization: " + e.getMessage());
+        }
         if (cardNumber < 0 || cardNumber >= values.length) {
             throw new IllegalArgumentException("Invalid card number");
         }
@@ -62,22 +94,20 @@ public class CardData {
     }
 
     public static boolean isStackable(int cardNumber) throws IllegalArgumentException {
+        try {
+            init();
+        } catch (IOException e) {
+            System.err.println(Presets.ERRORPRESET+"reading the JSON configuration file: " + e.getMessage());
+        } catch (ParseException e) {
+            System.err.println(Presets.ERRORPRESET+"unable to parse JSON configuration file: " + e.getMessage());
+        } catch (Exception e) {
+            System.err.println(Presets.ERRORPRESET+"An error occurred during agent initialization: " + e.getMessage());
+        }
         if (cardNumber < 0 || cardNumber >= stackableFlags.length) {
             throw new IllegalArgumentException("Invalid card number");
         }
         return stackableFlags[cardNumber];
     }
-    
-    //TODO remove test tool when functional and relocate.
-    public static void main(String[] args) {
-        try {
-            CardData.init();
-        } catch (IOException e) {
-            System.err.println("Error reading the file: " + e.getMessage());
-        } catch (ParseException e) {
-            System.err.println("Error parsing the JSON file: " + e.getMessage());
-        } catch (Exception e) {
-            System.err.println("An error occurred during initialization: " + e.getMessage());
-        }
-    }
+
+
 }

@@ -2,15 +2,132 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9281c8b-156a-4f9b-a92a-cd5830b36d6f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/com/config/Presets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/helper/Deal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/config/CardImageLocator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/config/CardData.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/config/CardData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/config/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/config/Image.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/main/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/main/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Blue_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Blue_0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Blue_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Blue_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Blue_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Blue_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Blue_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Blue_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Blue_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Blue_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Blue_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Blue_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Blue_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Blue_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Blue_7.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Blue_7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Blue_8.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Blue_8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Blue_9.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Blue_9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Blue_Draw.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Blue_Draw.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Blue_Reverse.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Blue_Reverse.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Blue_Skip.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Blue_Skip.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Deck.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Deck.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Green_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Green_0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Green_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Green_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Green_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Green_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Green_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Green_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Green_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Green_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Green_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Green_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Green_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Green_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Green_7.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Green_7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Green_8.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Green_8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Green_9 2.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Green_9 2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Green_9.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Green_9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Green_Draw.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Green_Draw.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Green_Reverse.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Green_Reverse.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Green_Skip.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Green_Skip.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Red_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Red_0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Red_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Red_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Red_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Red_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Red_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Red_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Red_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Red_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Red_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Red_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Red_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Red_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Red_7.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Red_7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Red_8.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Red_8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Red_9.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Red_9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Red_Draw.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Red_Draw.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Red_Reverse.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Red_Reverse.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Red_Skip.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Red_Skip.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Wild 2.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Wild 2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Wild.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Wild.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Wild_Draw.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Wild_Draw.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Yellow_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Yellow_0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Yellow_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Yellow_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Yellow_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Yellow_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Yellow_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Yellow_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Yellow_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Yellow_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Yellow_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Yellow_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Yellow_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Yellow_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Yellow_7.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Yellow_7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Yellow_8.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Yellow_8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Yellow_9.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Yellow_9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Yellow_Draw.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Yellow_Draw.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Yellow_Reverse.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Yellow_Reverse.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cards/Yellow_Skip.png" beforeDir="false" afterPath="$PROJECT_DIR$/com/assets/cards/Yellow_Skip.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/config/Get.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/config/Get.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/config/Image.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/config/Presets.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/config/Presets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/config/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/com/config/data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Blue_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Blue_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Blue_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Blue_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Blue_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Blue_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Blue_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Blue_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Blue_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Blue_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Blue_Draw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Blue_Reverse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Blue_Skip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Deck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Green_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Green_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Green_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Green_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Green_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Green_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Green_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Green_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Green_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Green_9 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Green_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Green_Draw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Green_Reverse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Green_Skip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Red_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Red_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Red_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Red_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Red_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Red_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Red_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Red_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Red_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Red_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Red_Draw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Red_Reverse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Red_Skip.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Wild 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Wild.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Wild_Draw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Yellow_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Yellow_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Yellow_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Yellow_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Yellow_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Yellow_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Yellow_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Yellow_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Yellow_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Yellow_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Yellow_Draw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Yellow_Reverse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/assets/cards/Yellow_Skip.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/com/config/CardData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/com/config/CardData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/com/main/Agent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/com/main/Agent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/com/config/Image.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/com/config/Presets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/com/config/Presets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/com/config/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Internet-Socket-Uno-Game/com/config/data.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,19 +155,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/samreid/Desktop/code/Internet-Socket-Uno-Game/com/config&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/samreid/Desktop/code/Internet-Socket-Uno-Game/com/config",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "advanced.settings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/com/config" />
@@ -59,7 +177,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Image">
+  <component name="RunManager" selected="Application.Get">
     <configuration name="Agent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.main.Agent" />
       <module name="Internet-Socket-Uno-Game" />
@@ -75,6 +193,19 @@
     </configuration>
     <configuration name="CardData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.config.CardData" />
+      <module name="Internet-Socket-Uno-Game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Get" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.config.Get" />
       <module name="Internet-Socket-Uno-Game" />
       <extension name="coverage">
         <pattern>
@@ -114,6 +245,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Get" />
         <item itemvalue="Application.Image" />
         <item itemvalue="Application.Agent" />
         <item itemvalue="Application.CardData" />
@@ -130,7 +262,7 @@
       <option name="presentableId" value="Default" />
       <updated>1682513511836</updated>
       <workItem from="1682513513835" duration="12913000" />
-      <workItem from="1682701028580" duration="1380000" />
+      <workItem from="1682701028580" duration="8057000" />
     </task>
     <servers />
   </component>
@@ -142,7 +274,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

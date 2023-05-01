@@ -421,6 +421,177 @@
       "color":"green",
       "value": "9",
       "stackable": false
+    },
+
+
+    "80": {
+      "color":"red",
+      "value": "11",
+      "stackable": true
+    },
+    "81": {
+      "color":"red",
+      "value": "11",
+      "stackable": true
+    },
+    "82": {
+      "color":"green",
+      "value": "11",
+      "stackable": true
+    },
+    "83": {
+      "color":"green",
+      "value": "11",
+      "stackable": true
+    },
+    "84": {
+      "color":"blue",
+      "value": "11",
+      "stackable": true
+    },
+    "85": {
+      "color":"blue",
+      "value": "11",
+      "stackable": true
+    },
+    "86": {
+      "color":"yellow",
+      "value": "11",
+      "stackable": true
+    },
+    "87": {
+      "color":"yellow",
+      "value": "11",
+      "stackable": true
+    },
+
+
+    "88": {
+      "color":"red",
+      "value": "12",
+      "stackable": true
+    },
+    "89": {
+      "color":"red",
+      "value": "12",
+      "stackable": true
+    },
+    "90": {
+      "color":"green",
+      "value": "12",
+      "stackable": true
+    },
+    "91": {
+      "color":"green",
+      "value": "12",
+      "stackable": true
+    },
+    "92": {
+      "color":"blue",
+      "value": "12",
+      "stackable": true
+    },
+    "93": {
+      "color":"blue",
+      "value": "12",
+      "stackable": true
+    },
+    "94": {
+      "color":"yellow",
+      "value": "12",
+      "stackable": true
+    },
+    "95": {
+      "color":"yellow",
+      "value": "12",
+      "stackable": true
+    },
+
+
+
+    "96": {
+      "color":"red",
+      "value": "13",
+      "stackable": true
+    },
+    "97": {
+      "color":"red",
+      "value": "13",
+      "stackable": true
+    },
+    "98": {
+      "color":"green",
+      "value": "13",
+      "stackable": true
+    },
+    "99": {
+      "color":"green",
+      "value": "13",
+      "stackable": true
+    },
+    "100": {
+      "color":"blue",
+      "value": "13",
+      "stackable": true
+    },
+    "101": {
+      "color":"blue",
+      "value": "13",
+      "stackable": true
+    },
+    "102": {
+      "color":"yellow",
+      "value": "13",
+      "stackable": true
+    },
+    "103": {
+      "color":"yellow",
+      "value": "13",
+      "stackable": true
+    },
+
+
+    "104": {
+      "color":"wild",
+      "value": "14",
+      "stackable": false
+    },
+    "105": {
+      "color":"wild",
+      "value": "14",
+      "stackable": false
+    },
+    "106": {
+      "color":"wild",
+      "value": "14",
+      "stackable": false
+    },
+    "107": {
+      "color":"wild",
+      "value": "14",
+      "stackable": false
+    },
+
+
+    "108": {
+      "color":"wild",
+      "value": "15",
+      "stackable": false
+    },
+    "109": {
+      "color":"wild",
+      "value": "15",
+      "stackable": false
+    },
+    "110": {
+      "color":"wild",
+      "value": "15",
+      "stackable": false
+    },
+    "111": {
+      "color":"wild",
+      "value": "15",
+      "stackable": false
     }
   }
 }

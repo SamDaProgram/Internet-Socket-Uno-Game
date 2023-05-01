@@ -9,7 +9,7 @@ import java.util.Arrays;
 public class Get {
     private static int[] shuffledCardNumbers = new int[0];
 
-    public static void innit() {
+    public static void main(String[] args) {
         JSONParser parser = new JSONParser();
         int[] cardNumbers = new int[0];
         try {
@@ -29,14 +29,13 @@ public class Get {
                 String value = (String) cardObj.get("value");
                 boolean stackable = (Boolean) cardObj.get("stackable");
 
-                System.out.println("Card " + cardNumber + " - color: " + color + ", value: " + value + ", stackable: " + stackable +", image file: "+ Image.getFileName(cardNumber));
+                System.out.println("Card " + cardNumber + " - color: " + color + ", value: " + value + ", stackable: " + stackable +", image file: "+ CardImageLocator.getFileName(cardNumber));
             }
         } catch (Exception e) {
             e.printStackTrace();
         }
 
         System.out.println(Arrays.toString(getShuffledCardNumbers()));
-        ;
     }
 
     public static int[] getShuffledCardNumbers() {
